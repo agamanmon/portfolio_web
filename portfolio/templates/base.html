@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+<head>
+    <meta charset="UTF-8">
+    <title>manmon</title>
+
+
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+    <section id="title" class="text-center container">
+    <header class="p-3 text-bg-light">
+        <div class="container">
+            <ul class="nav navbar-expand-lg navbar-light justify-content-center fixed-top navbar-shrink" id="mainNav">
+              <li><a href="{{url_for('home') }}" class="nav-link px-2 text-secondary">Home</a></li>
+              <li><a href="#about" class="nav-link px-2 text-secondary">About</a></li>
+              <li><a href="#projects" class="nav-link px-2 text-secondary">Projects</a></li>
+              <li><a href="#contact" class="nav-link px-2 text-secondary">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    </section>
+        <section class=" container">
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="static/files/coding_girl.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="300" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-light text-body-emphasis lh-1 mb-2">hello! I am Agata.</h1>
+          <h2 class="fw-light mb-4">web developer and Python enthusiast.</h2>
+        <p class="lead">welcome to the electrifying universe of code, coffee, and chaos! I'm the caffeine-fueled maestro behind the screen, a full stack developer dancing through the binary beats.<br><br> </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-dark btn-outline-light btn-lg px-4">About me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    {% block about_content %}{%endblock%}
+    {% block projects_content %}{%endblock%}
+    {% block contact_content %} {%endblock %}
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</html>
