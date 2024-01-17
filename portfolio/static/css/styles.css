@@ -1,0 +1,65 @@
+
+.col-md-3 a.github {
+    color: #333;
+    text-align: center;
+}
+
+.col-md-3 a.github svg {
+    margin-right: 10px;
+    padding-bottom: 10px;
+    fill: #333;
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.col-md-3 a.email {
+    color: #d44638;
+    text-align: center;
+}
+
+.col-md-3 a.email svg {
+    margin-right: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.col-md-3 a.whatsapp {
+    color: #128C7E;
+    text-align: center;
+}
+
+.col-md-3 a.whatsapp svg {
+    margin-right: 10px;
+    padding-bottom: 10px;
+    fill: #128C7E;
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.col-md-3 a.linkedin {
+    color: #0A66C2;
+    text-align: center;
+}
+
+.col-md-3 a.linkedin svg {
+    margin-right: 10px;
+    padding-bottom: 10px;
+    fill: #0A66C2;
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.col-lg-7 {
+    margin-left: auto;
+}
